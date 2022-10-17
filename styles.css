@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #86898f;
+    background: #f1f1f1;
+
+}
+
+.info-text {
+    padding-left: 40px;
+
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: dimgrey;
+    margin: 0;
+    }
+
+.card-hobby {
+    border: aquamarine;
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.card-job {
+    border: darksalmon;
+    border-radius: 10px;
+    background-color: darksalmon;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+    }
+
+    @media (max-width: 450px) {
+        .info {
+            display: block;
+            text-align: center;
+            
+        }
+    }  
+
+.btn {
+    background: darkslategrey;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    opacity: .6;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:orange;
+}
+
+a:visited {
+    color: darkviolet;
+}
+
+a:active {
+    color: red;
+}
+
+
+.table {
+    width: 100%;
+    
+    
+}
+.table th {
+    text-align: center;
+    border-radius: 3px;
+    background: brown;
+    color: wheat;
+}
+.table td {
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: wheat;
+    
+}
+
+.table tr {
+    margin: 0;
+}
+
+.table td:nth-child(3) {
+    text-align: center;
+}
+
+.list ul {
+    
+    text-decoration: underline;
+}
+
+.list li { 
+    margin-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.fg label {
+   display: block;
+   font-size: 14px;
+   color: #86898f;
+}
+
+.fg input, .fg textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.fr .fg {
+
+width: 50%;
+margin-right: 20px;
+
+}
+
+.fr {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 450px) {
+   .fr { 
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fr .fg {
+    width: 100%;
+}
+
+}
+
+.fr /fg:last-child {
+    margin-right: 0;
+}
